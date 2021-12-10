@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="loginBgColor">#F2F2F2</color>
+    <color name="signUpBgColor">#FFFFFF</color>
+    <color name="mobileNumber">#535353</color>
+    <color name="splashBackground">#E6E3E2</color>
+    <color name="signUpFormBgColor">#00000029</color>
+    <color name="kycbgcolor">#C1C1C1</color>
+    <color name="signUpFormIconColor">#797979</color>
+    <color name="sign_up_bg">#AEACAC</color>
+    <color name="sign_up_card_bg">#202020</color>
+    <color name="sign_in_card_bg">#F2F2F2</color>
+
+
+</resources>

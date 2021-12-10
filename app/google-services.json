@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "410785038137",
+    "project_id": "ashoka-2cfec",
+    "storage_bucket": "ashoka-2cfec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410785038137:android:fef88a7d7f7fa2a7aa32e8",
+        "android_client_info": {
+          "package_name": "com.cloudplace.ashoka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410785038137-r2qv9pd4aqgejpi0fum56nk8nt1pc5ac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cloudplace.ashoka",
+            "certificate_hash": "cd4c09c79e4cd2330b145417569c63fd4bd1ad09"
+          }
+        },
+        {
+          "client_id": "410785038137-ra05miuceds3q088npfqrsa6c0ke9i09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnESnrau3OK3L_Bm1hc0lGmM53v0kQJz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410785038137-ra05miuceds3q088npfqrsa6c0ke9i09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

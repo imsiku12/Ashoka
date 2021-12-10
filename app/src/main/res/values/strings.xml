@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Ashoka</string>
+    <string name="sign_up_text">Welcome to Ashoka, Create your account to get access to miracles</string>
+    <string name="contract_desc">
+        <br>No information provided on the Application shall be considered a substitute for your independent investigation. These Terms are collectively an electronic record for the purpose of the Information Technology Act, 2000 (“IT Act”) and the rules made thereunder. These Terms do not require any digital or electronic signature. You must not modify the paper or digital copies of any materials you have printed, or downloaded from, our Application in any way, and you must not use any illustrations, photographs, video or audio sequences or any graphics separately from any accompanying text.</br>
+        <br></br>
+
+        <br>By using our Application, you confirm that you accept these Terms and that you agree to comply with them. If you do not agree to the Terms, you must not access this Application.</br>
+
+        <br></br>
+
+        <br>We endeavor to make the process of trading in pre-owned vehicle(s) an amazing and hassle-free experience for our customers. We hereby clarify that the Services mentioned on the Website are subject to availability. The online valuations of a vehicle provided by the Company are only prima facie quotations arrived on the basis of the information provided by you and are subject to change on further inspection of the vehicle. The Company reserves the right to modify, amend and/or alter the said Service(s) based on its sole discretion and no such Services shall be deemed to be any offer or acceptance by the Company unless the same are accepted by the Company separately in writing through its authorized representatives.</br>
+    </string>
+</resources>
