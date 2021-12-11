@@ -50,7 +50,7 @@ public class FillKycFormActivity extends AppCompatActivity implements View.OnCli
             finish();
         }
         if (view == nextBtnTv){
-            Intent intent = new Intent(FillKycFormActivity.this, KYCDetailsActivity.class);
+            Intent intent = new Intent(FillKycFormActivity.this, KYCDetailsNewActivity.class);
             startActivity(intent);
             finish();
         }

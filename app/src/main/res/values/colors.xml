@@ -14,9 +14,11 @@
     <color name="signUpFormBgColor">#00000029</color>
     <color name="kycbgcolor">#C1C1C1</color>
     <color name="signUpFormIconColor">#797979</color>
+
+    <color name="sign_in_card_bg">#F2F2F2</color>
+    <color name="round_bg_color">#F2F2F2</color>
     <color name="sign_up_bg">#AEACAC</color>
     <color name="sign_up_card_bg">#202020</color>
-    <color name="sign_in_card_bg">#F2F2F2</color>
 
 
 </resources>

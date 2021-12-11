@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:id="@+id/et_first_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@null"
+                                android:drawableStart="@drawable/ic_user"
+                                android:drawablePadding="10dp"
+                                android:hint="First Name" />
+
+                            <EditText
+                                android:id="@+id/et_last_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@null"
+                                android:drawableStart="@drawable/ic_user"
+                                android:drawablePadding="10dp"
+                                android:hint="Last Name" />
+
+                            <EditText
+                                android:id="@+id/et_comp_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@null"
+                                android:drawableStart="@drawable/ic_user"
+                                android:drawablePadding="10dp"
+                                android:hint="Name of Company" />
+
+                            <EditText
+                                android:id="@+id/et_reg_no_comp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@null"
+                                android:drawableStart="@drawable/ic_user"
+                                android:drawablePadding="10dp"
+                                android:hint="Registration Number of Company" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Address of the company" />
+
+                            <EditText
+                                android:id="@+id/et_number_of_bul"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/edit_round_bg"
+                                android:hint="Number/bungalow/ number"
+                                android:padding="5dp" />
+
+                            <EditText
+                                android:id="@+id/et_street"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/edit_round_bg"
+                                android:hint="Street"
+                                android:padding="5dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <EditText
+                                    android:id="@+id/et_city"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/edit_round_bg"
+                                    android:hint="City"
+                                    android:padding="5dp" />
+
+                                <EditText
+                                    android:id="@+id/et_pin"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/edit_round_bg"
+                                    android:hint="Pin"
+                                    android:padding="5dp" />
+
+                            </LinearLayout>
+
+
+                            <EditText
+                                android:id="@+id/et_county"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/edit_round_bg"
+                                android:hint="Country"
+                                android:padding="5dp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/sign_up_card_bg">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/cv_bus_reg_doc"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="5dp"
+                                android:layout_weight="1"
+                                app:cardCornerRadius="15dp">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@null"
+                                    android:gravity="center">
+
+                                    <ImageView
+
+                                        android:id="@+id/iv_buss_reg_doc"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/ic_upload" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/iv_buss_reg_doc"
+                                        android:gravity="center"
+                                        android:text="Business Registration Doc" />
+                                </RelativeLayout>
+                            </androidx.cardview.widget.CardView>
+
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/cv_co_mana_dir_id"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="5dp"
+                                android:layout_weight="1"
+                                android:background="#A0A0A0"
+                                app:cardCornerRadius="15dp">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#A0A0A0"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:id="@+id/iv_com_man_di_id"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/ic_upload"
+                                        app:tint="@color/white" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/iv_com_man_di_id"
+                                        android:gravity="center"
+                                        android:text="Company Managing Director id"
+                                        android:textColor="@color/white" />
+                                </RelativeLayout>
+                            </androidx.cardview.widget.CardView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/cv_last_3_bal_sheet"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="5dp"
+                                android:layout_weight="1"
+                                app:cardCornerRadius="15dp">
+
+                                <RelativeLayout
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#A0A0A0"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:id="@+id/iv_last_3_bal_sheet"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/ic_upload"
+                                        app:tint="@color/white" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/iv_last_3_bal_sheet"
+                                        android:gravity="center"
+                                        android:text="Last 3 balance sheets"
+                                        android:textColor="@color/white" />
+                                </RelativeLayout>
+                            </androidx.cardview.widget.CardView>
+
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/cv_3_acc_rec"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="5dp"
+                                android:layout_weight="1"
+                                app:cardCornerRadius="15dp">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#A0A0A0"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:id="@+id/iv_last_3_bank_acc_rec"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/ic_upload"
+                                        app:tint="@color/white" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/iv_last_3_bank_acc_rec"
+                                        android:gravity="center"
+                                        android:text="Business Registration Doc"
+                                        android:textColor="@color/white" />
+                                </RelativeLayout>
+                            </androidx.cardview.widget.CardView>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/haveAnAccountTv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/sign_up_card_bg"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BACK"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/signUpTv"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_save"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:gravity="center"
+                    android:text="SAVE"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
