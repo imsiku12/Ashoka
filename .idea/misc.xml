@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudio/Project/ashoka_new/Ashoka/app/src/main/res/drawable/circle_shape.xml" value="0.21388888888888888" />
+        <entry key="..\:/AndroidStudio/Project/ashoka_new/Ashoka/app/src/main/res/drawable/edit_round_bg.xml" value="0.21388888888888888" />
+        <entry key="..\:/AndroidStudio/Project/ashoka_new/Ashoka/app/src/main/res/layout/activity_car_management.xml" value="0.2640625" />
+        <entry key="..\:/AndroidStudio/Project/ashoka_new/Ashoka/app/src/main/res/layout/activity_choose_login_signup.xml" value="0.2640625" />
+        <entry key="..\:/AndroidStudio/Project/ashoka_new/Ashoka/app/src/main/res/layout/activity_congratulations.xml" value="0.2640625" />
+        <entry key="..\:/AndroidStudio/Project/ashoka_new/Ashoka/app/src/main/res/layout/activity_credit_line.xml" value="0.1142857142857143" />
+        <entry key="..\:/AndroidStudio/Project/ashoka_new/Ashoka/app/src/main/res/layout/activity_fill_kyc_form.xml" value="0.2640625" />
+        <entry key="..\:/AndroidStudio/Project/ashoka_new/Ashoka/app/src/main/res/layout/activity_increase_creditline.xml" value="0.2640625" />
+        <entry key="..\:/AndroidStudio/Project/ashoka_new/Ashoka/app/src/main/res/layout/activity_kyc.xml" value="0.18857142857142858" />
+        <entry key="..\:/AndroidStudio/Project/ashoka_new/Ashoka/app/src/main/res/layout/activity_login_new.xml" value="0.2640625" />
+        <entry key="..\:/AndroidStudio/Project/ashoka_new/Ashoka/app/src/main/res/layout/activity_main.xml" value="0.2640625" />
+        <entry key="..\:/AndroidStudio/Project/ashoka_new/Ashoka/app/src/main/res/layout/activity_menu.xml" value="0.2640625" />
+        <entry key="..\:/AndroidStudio/Project/ashoka_new/Ashoka/app/src/main/res/layout/activity_screen20.xml" value="0.2640625" />
+        <entry key="..\:/AndroidStudio/Project/ashoka_new/Ashoka/app/src/main/res/layout/activity_sign_up_new.xml" value="0.2640625" />
+        <entry key="..\:/AndroidStudio/Project/ashoka_new/Ashoka/app/src/main/res/layout/activity_signup_form.xml" value="0.12571428571428572" />
+        <entry key="..\:/AndroidStudio/Project/ashoka_new/Ashoka/app/src/main/res/layout/activity_signup_form_new.xml" value="0.2640625" />
+        <entry key="..\:/AndroidStudio/Project/ashoka_new/Ashoka/app/src/main/res/layout/activity_splash_screen.xml" value="0.2640625" />
+        <entry key="..\:/AndroidStudio/Project/ashoka_new/Ashoka/app/src/main/res/layout/activity_splash_screen_new.xml" value="0.2640625" />
+        <entry key="..\:/AndroidStudio/Project/ashoka_new/Ashoka/app/src/main/res/layout/screen_17.xml" value="0.14285714285714285" />
+        <entry key="..\:/AndroidStudio/Project/ashoka_new/Ashoka/app/src/main/res/layout/screen_18.xml" value="0.2640625" />
+        <entry key="..\:/AndroidStudio/Project/ashoka_new/Ashoka/app/src/main/res/layout/screen_19.xml" value="0.2640625" />
+        <entry key="..\:/AndroidStudio/Project/ashoka_new/Ashoka/app/src/main/res/layout/screen_20.xml" value="0.2640625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

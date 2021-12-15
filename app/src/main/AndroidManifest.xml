@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Ashoka"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".CreditLineActivity"
+            android:exported="false" />
+        <activity
             android:name=".Pending.Screen20"
             android:exported="false" />
         <activity
@@ -25,6 +28,7 @@
             android:exported="false" />
         <activity android:name=".carmanagement.congratulations.CongratulationsActivity" />
         <activity android:name=".carmanagement.IncreaseCreditlineActivity" />
+        <activity android:name=".kycform.KYCDetailsNewActivity" />
         <activity android:name=".carmanagement.CarManagementActivity" />
         <activity android:name=".signup.SignupFormActivity" />
         <activity android:name=".menu.MenuActivity" />
@@ -33,6 +37,9 @@
         <activity android:name=".login.LoginActivity" />
         <activity android:name=".splashscreen.ChooseLoginSignupActivity" />
         <activity android:name=".signup.SignUpActivity" />
+        <activity android:name=".Pending.Screen17" /> <!-- <activity android:name=".Pending.Screen18" /> -->
+        <!-- <activity android:name=".Pending.Screen19" /> -->
+        <!-- <activity android:name=".Pending.Screen20" /> -->
         <activity android:name=".splashscreen.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -9,7 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -34,9 +34,9 @@ import retrofit2.Response;
 
 public class SignupFormActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private LinearLayout parentLayout;
+    private RelativeLayout parentLayout;
     private TextInputEditText firstNameEt, surNameEt, emailEt, phoneNumberEt, passwordEt, reEnterPasswordEt;
-    private LinearLayout haveAnAccountTv, signUpTv;
+    private TextView haveAnAccountTv, signUpTv;
     private ProgressDialog progressDialog;
     private String phoneNumber;
 
@@ -45,7 +45,7 @@ public class SignupFormActivity extends AppCompatActivity implements View.OnClic
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_signup_form);
+        setContentView(R.layout.activity_signup_form_new);
 
         Intent intent = getIntent();
         phoneNumber = intent.getStringExtra("UserMobileNumber");
@@ -63,8 +63,8 @@ public class SignupFormActivity extends AppCompatActivity implements View.OnClic
         passwordEt = findViewById(R.id.passwordEt);
         reEnterPasswordEt = findViewById(R.id.reEnterPasswordEt);
 
-        haveAnAccountTv = findViewById(R.id.haveAnAccountTv);
-        signUpTv = findViewById(R.id.signUpTv);
+        haveAnAccountTv = findViewById(R.id.haveAnAccountTvForm);
+        signUpTv = findViewById(R.id.signUpTvForm);
 
         haveAnAccountTv.setOnClickListener(this);
         signUpTv.setOnClickListener(this);
@@ -142,19 +142,32 @@ public class SignupFormActivity extends AppCompatActivity implements View.OnClic
                                 startActivity(intent);
                                 finish();
                             } else {
+                                Intent intent = new Intent(SignupFormActivity.this, FillKycFormActivity.class);
+                                intent.putExtra("UserFirstName", userFirstName);
+                                startActivity(intent);
+                                finish();
                                 progressDialog.dismiss();
                                 Toast.makeText(SignupFormActivity.this, errorMessage, Toast.LENGTH_SHORT).show();
                             }
                         } catch (JSONException e) {
+                            Intent intent = new Intent(SignupFormActivity.this, FillKycFormActivity.class);
+                            intent.putExtra("UserFirstName", userFirstName);
+                            startActivity(intent);
+                            finish();
                             progressDialog.dismiss();
                             e.printStackTrace();
                             Toast.makeText(SignupFormActivity.this, e.toString(), Toast.LENGTH_SHORT).show();
                         } catch (IOException e) {
+                            Intent intent = new Intent(SignupFormActivity.this, FillKycFormActivity.class);
+                            intent.putExtra("UserFirstName", userFirstName);
+                            startActivity(intent);
+                            finish();
                             progressDialog.dismiss();
                             e.printStackTrace();
                             Toast.makeText(SignupFormActivity.this, e.toString(), Toast.LENGTH_SHORT).show();
                         }
                     } else {
+
                         progressDialog.dismiss();
 //                        Toast.makeText(SignupFormActivity.this, "Profile creation failed", Toast.LENGTH_SHORT).show();
 //                        Toast.makeText(SignupFormActivity.this, "Please try again 1", Toast.LENGTH_SHORT).show();
